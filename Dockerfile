@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-# update sources list
+# Verificar updates
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get -y install apache2
@@ -9,5 +9,5 @@ EXPOSE 80
 ENTRYPOINT ["apache2ctl"]
 CMD ["-DFOREGROUND"]
 
-# cleanup
+# Limpar
 RUN apt-get -qy autoremove
