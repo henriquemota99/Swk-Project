@@ -30,6 +30,7 @@ $ docker build -t webserver:latest .
 $ docker run -itd -p 80:80 webserver:latest
 ```
 
+Agora basta ir ao browser e pesquisar por *localhost* que será apresentado o projeto.
 
 ### LINGUAGENS UTILIZADAS
 
