@@ -9,6 +9,12 @@
     <script src="main.js"></script>
 </head>
 <body>
-    Teste
+    F4C3B00K
+
+<footer>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<!-- Load our React component. -->
+<script src="like_button.js"></script>
+</footer>
 </body>
 </html>
