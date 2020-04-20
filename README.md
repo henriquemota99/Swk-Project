@@ -8,9 +8,9 @@ https://git-scm.com/downloads
 
 https://www.docker.com/products/docker-desktop (obrigatório)
 
-### COMO INICIAR PROJETO
+## COMO INICIAR PROJETO
 
-## DOCKER HHVM + REACTJS (SOON)
+### DOCKER HHVM + REACTJS (SOON)
 
 *Trabalhar sempre dentro da pasta onde tem o Dockerfile.*
 
@@ -24,12 +24,12 @@ $ docker build .
 $ docker ps
 ```
 
-**Executar os Ficheiros em localhost **
+**Executar os ficheiros em localhost**
 ```sh
 $ docker run -p 0.0.0.0:80:80 ID_CONTAINER_AQUI
 ```
 
-## OUTROS COMANDOS / UBUNTU
+### OUTROS COMANDOS / UBUNTU
 
 **Para um container que está em execução**
 ```sh
