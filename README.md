@@ -19,14 +19,14 @@ https://www.docker.com/products/docker-desktop (obrigatório)
 $ docker build .
 ```
 
-**Mostrar o ID do container**
+**Mostrar o ID da Imagem**
 ```sh
 $ docker ps
 ```
 
-**Executar os ficheiros em localhost**
+**Executar o Docker para localhost**
 ```sh
-$ docker run -p 0.0.0.0:80:80 ID_CONTAINER_AQUI
+$ docker run -p 0.0.0.0:80:80 ID_IMAGEM_AQUI
 ```
 
 ### OUTROS COMANDOS / UBUNTU
