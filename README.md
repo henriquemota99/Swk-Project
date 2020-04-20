@@ -10,10 +10,26 @@ https://www.docker.com/products/docker-desktop (obrigatório)
 
 ### COMO INICIAR PROJETO
 
-**Mostra que containers estão ativos de momento**
+## DOCKER HHVM + REACTJS (SOON)
+
+*Trabalhar sempre dentro da pasta onde tem o Dockerfile.*
+
+**Construir o Docker dos ficheiros**
+```sh
+$ docker build .
+```
+
+**Mostrar o ID do container**
 ```sh
 $ docker ps
 ```
+
+**Executar os Ficheiros em localhost **
+```sh
+$ docker run -p 0.0.0.0:80:80 ID_CONTAINER_AQUI
+```
+
+## OUTROS COMANDOS / UBUNTU
 
 **Para um container que está em execução**
 ```sh
