@@ -1,6 +1,8 @@
 # SWK PROJECT
 
-Projeto Swonkie com Docker e Git.
+Projeto Swonkie com Docker e HHVM.
+
+Não requer instalação do HHVM na raiz.
 
 ### INSTALAÇÃO
 
@@ -29,7 +31,8 @@ $ docker images
 $ docker run -p 0.0.0.0:80:80 ID_IMAGEM_AQUI
 ```
 
-### OUTROS COMANDOS / UBUNTU
+
+## OUTROS COMANDOS / UBUNTU
 
 **Para um container que está em execução**
 ```sh
