@@ -21,7 +21,7 @@ $ docker build .
 
 **Mostrar o ID da Imagem**
 ```sh
-$ docker ps
+$ docker images
 ```
 
 **Executar o Docker para localhost**
